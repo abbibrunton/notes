@@ -16,12 +16,16 @@
 
 <!--TOC_END-->
 ## Overview
-Pull requests let you tell others about changes you've pushed to a GitHub repository. Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
+Pull requests let you tell others about changes you've pushed to a GitHub repository.  
+Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
 
 ## Collaborative Tool
 Pull Requests are commonly used by teams and organisations collaborating using the **Shared Repository Model**.
+
 This is where everyone shares a single repository, and seperate (topic) branches are used to develop features and isolate changes.
+
 Many open-source projects on Github use pull requests to manage changes from contributors, as they are useful in providing a way to notify project maintainers about any changes made.
+
 Once the project maintainer has been notified of a change via a pull requests, it opens the door for code review and general discussion about a set of changes.
 This is really great, as it can be done before any changes are merged into the master branch.
 
@@ -31,7 +35,8 @@ There are 2 main flows when dealing with pull requests:
 ### PR From a Branch Within a Repository
 #### Create a feature branch and push it to VCS
 1. Clone a repository down using `git clone [URL to repository]` and `cd` into it
-2. Switch to the branch you want to create a feature branch from (usually master or development), using `git checkout [master/development/other]`
+2. Switch to the branch you want to create a feature branch from (usually master or development), using:  
+   `git checkout [master/development/other]`
 3. Create and switch to a new (feature) branch using `git checkout -b [new branch name]`
 4. Push the feature branch up to git using `git push origin [new branch name]`
 5. Make changes on your feature branch, and then use `git add`, `git commit` and `git push` to make sure the changes are reflected in your VCS.
@@ -41,7 +46,7 @@ This is done on your VCS GUI (in this example, we are using GitHUb).
 
 1. Go to the repository you're working with and click on the 'Compare and pull request' button:
 
-<img align="left" src="https://imgur.com/3SzIEmi">
+![](https://imgur.com/3SzIEmi)
 
 2. You will need to choose which branch you want the changes to eventualy be implemented on (`base`), and which branch the proposed changes are currently on (`compare`):
 
