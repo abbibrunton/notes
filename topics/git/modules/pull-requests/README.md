@@ -40,15 +40,24 @@ There are 2 main flows when dealing with pull requests:
 This is done on your VCS GUI (in this example, we are using GitHUb).
 
 1. Go to the repository you're working with and click on the 'Compare and pull request' button:
-![](https://imgur.com/nDoRKHw)
+
+<img align="left" src="https://imgur.com/3SzIEmi">
+
 2. You will need to choose which branch you want the changes to eventualy be implemented on (`base`), and which branch the proposed changes are currently on (`compare`):
-![](https://imgur.com/RYr7D4x)
+
+<img align="left" src="https://imgur.com/lWX58HA">
+
 3. At this point, you can give your pull requests a title and add some comments for context:
-![](https://imgur.com/wTvf2GR)
+
+<img align="left" src="https://imgur.com/geCW0mU">
+
 4. You can configure additional options on the right hand side, such as assigning a reviewer, adding a label, etc:
-![](https://imgur.com/pJ13BD1)
+
+<img align="left" src="https://imgur.com/i0zyMAG">
+
 5. Click 'Create a Pull Request':
-![](https://imgur.com/UHZrvSC)
+
+<img align="left" src="https://imgur.com/xwRCTyk">
 
 ### PR from a Forked Repository
 #### Create a Pull Request
@@ -57,21 +66,30 @@ This is also done on your VCS GUI.
 1. Ensure you have a forked repository, and have made some changes to it
 2. Navigate to the repository from which you created your fork
 3. Click on 'New pull request':
-![](https://help.github.com/assets/images/help/pull_requests/pull-request-start-review-button.png)
+
+<img align="left" src="https://help.github.com/assets/images/help/pull_requests/pull-request-start-review-button.png">
+
 4. Amend you `base` and `compare` to reflect to correct branches
 5. Click on 'compare accross forks':
-![](https://help.github.com/assets/images/help/pull_requests/compare-across-forks-link.png)
+
+<img align="left" src="https://help.github.com/assets/images/help/pull_requests/compare-across-forks-link.png">
+
 6. Confirm that the base fork is the repository you'd like to merge changes into. Use the `base` drop-down menu to select the branch of the repository you'd like to merge changes into:
-![](https://help.github.com/assets/images/help/pull_requests/choose-base-fork-and-branch.png)
+
+<img align="left" src="https://help.github.com/assets/images/help/pull_requests/choose-base-fork-and-branch.png)">
+
 7. Use the head fork drop-down menu to select your forked repository, then use the compare branch drop-down menu to select the branch you made your changes in:
-![](https://help.github.com/assets/images/help/pull_requests/choose-head-fork-compare-branch.png)
+
+<img align="left" src="https://help.github.com/assets/images/help/pull_requests/choose-head-fork-compare-branch.png">
+
 8. Type a title and description for your pull request
 9. Configure any other options you want on the right hand side
 10. Click 'Create Pull Request'
 
 ## Closing a Pull Request
 You can simply click on the "Close" button on the pull request page to close it:
-![](https://imgur.com/aQoj9HL)
+
+<img align="left" src="https://imgur.com/fsFyzqL">
 
 You will be given the option to delete the branch directly at this point, should you wish to do so. 
 
