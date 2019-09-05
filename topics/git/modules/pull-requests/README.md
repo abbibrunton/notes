@@ -17,6 +17,7 @@
 <!--TOC_END-->
 ## Overview
 Pull requests let you tell others about changes you've pushed to a GitHub repository.  
+
 Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
 
 ## Collaborative Tool
@@ -42,7 +43,7 @@ There are 2 main flows when dealing with pull requests:
 5. Make changes on your feature branch, and then use `git add`, `git commit` and `git push` to make sure the changes are reflected in your VCS.
 
 #### Create a Pull Request
-This is done on your VCS GUI (in this example, we are using GitHUb).
+This is done on your VCS GUI (in this example, we are using GitHUb):
 
 1. Go to the repository you're working with and click on the 'Compare and pull request' button:
 
@@ -66,26 +67,26 @@ This is done on your VCS GUI (in this example, we are using GitHUb).
 
 ### PR from a Forked Repository
 #### Create a Pull Request
-This is also done on your VCS GUI.
+This is also done on your VCS GUI:
 
 1. Ensure you have a forked repository, and have made some changes to it
 2. Navigate to the repository from which you created your fork
 3. Click on 'New pull request':
 
-<img align="left" src="https://help.github.com/assets/images/help/pull_requests/pull-request-start-review-button.png">
+![](https://help.github.com/assets/images/help/pull_requests/pull-request-start-review-button.png)
 
 4. Amend you `base` and `compare` to reflect to correct branches
 5. Click on 'compare accross forks':
 
-<img align="left" src="https://help.github.com/assets/images/help/pull_requests/compare-across-forks-link.png">
+![](https://help.github.com/assets/images/help/pull_requests/compare-across-forks-link.png)
 
 6. Confirm that the base fork is the repository you'd like to merge changes into. Use the `base` drop-down menu to select the branch of the repository you'd like to merge changes into:
 
-<img align="left" src="https://help.github.com/assets/images/help/pull_requests/choose-base-fork-and-branch.png)">
+![](https://help.github.com/assets/images/help/pull_requests/choose-base-fork-and-branch.png)
 
 7. Use the head fork drop-down menu to select your forked repository, then use the compare branch drop-down menu to select the branch you made your changes in:
 
-<img align="left" src="https://help.github.com/assets/images/help/pull_requests/choose-head-fork-compare-branch.png">
+![](https://help.github.com/assets/images/help/pull_requests/choose-head-fork-compare-branch.png")
 
 8. Type a title and description for your pull request
 9. Configure any other options you want on the right hand side
@@ -94,7 +95,7 @@ This is also done on your VCS GUI.
 ## Closing a Pull Request
 You can simply click on the "Close" button on the pull request page to close it:
 
-<img align="left" src="https://imgur.com/fsFyzqL">
+![](https://imgur.com/fsFyzqL)
 
 You will be given the option to delete the branch directly at this point, should you wish to do so. 
 
