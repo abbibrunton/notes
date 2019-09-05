@@ -47,23 +47,23 @@ This is done on your VCS GUI (in this example, we are using GitHUb):
 
 1. Go to the repository you're working with and click on the 'Compare and pull request' button:
 
-![](https://i.imgur.com/3SzIEmi.png?1)
+![](https://i.imgur.com/3SzIEmi.png?2)
 
 2. You will need to choose which branch you want the changes to eventualy be implemented on (`base`), and which branch the proposed changes are currently on (`compare`):
 
-![](https://i.imgur.com/lWX58HA.png)
+![](https://i.imgur.com/lWX58HA.png?1)
 
 3. At this point, you can give your pull requests a title and add some comments for context:
 
-![](https://i.imgur.com/geCW0mU.png)
+![](https://i.imgur.com/geCW0mU.png?1)
 
 4. You can configure additional options on the right hand side, such as assigning a reviewer, adding a label, etc:
 
-![](https://i.imgur.com/i0zyMAG.png?1)
+![](https://i.imgur.com/i0zyMAG.png?2)
 
 5. Click 'Create a Pull Request':
 
-![](https://i.imgur.com/xwRCTyk.png?2)
+![](https://i.imgur.com/xwRCTyk.png?3)
 
 ### 2) PR from a Forked Repository
 #### Create a Pull Request
@@ -95,7 +95,7 @@ This is also done on your VCS GUI:
 ## Closing a Pull Request
 You can simply click on the "Close" button on the pull request page to close it:
 
-![](https://i.imgur.com/fsFyzqL.png)
+![](https://i.imgur.com/fsFyzqL.png?1)
 
 You will be given the option to delete the branch directly at this point, should you wish to do so. 
 
