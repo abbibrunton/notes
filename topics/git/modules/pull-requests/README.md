@@ -63,7 +63,7 @@ This is done on your VCS GUI (in this example, we are using GitHUb):
 
 5. Click 'Create a Pull Request':
 
-![](https://i.imgur.com/xwRCTyk.png?1)
+![](https://i.imgur.com/xwRCTyk.png?2)
 
 ### 2) PR from a Forked Repository
 #### Create a Pull Request
@@ -100,7 +100,7 @@ You can simply click on the "Close" button on the pull request page to close it:
 You will be given the option to delete the branch directly at this point, should you wish to do so. 
 
 ## After a Pull Request
-Once a pull request has been opened, it is able to be reviewed by other collaborators and merged into the base branch you dictated.
+Once a pull request has been opened, it can be reviewed by other collaborators and merged into the base branch you dictated earlier.
 
 ## Tasks
 - Try to create a new feature branch from an existing GitHub project (or create a new project)
