@@ -47,7 +47,7 @@ This is done on your VCS GUI (in this example, we are using GitHUb):
 
 1. Go to the repository you're working with and click on the 'Compare and pull request' button:
 
-![](https://i.imgur.com/3SzIEmi.png)
+![](https://i.imgur.com/3SzIEmi.png?1)
 
 2. You will need to choose which branch you want the changes to eventualy be implemented on (`base`), and which branch the proposed changes are currently on (`compare`):
 
@@ -59,11 +59,11 @@ This is done on your VCS GUI (in this example, we are using GitHUb):
 
 4. You can configure additional options on the right hand side, such as assigning a reviewer, adding a label, etc:
 
-![](https://i.imgur.com/i0zyMAG.png)
+![](https://i.imgur.com/i0zyMAG.png?1)
 
 5. Click 'Create a Pull Request':
 
-![](https://i.imgur.com/xwRCTyk.png)
+![](https://i.imgur.com/xwRCTyk.png?1)
 
 ### 2) PR from a Forked Repository
 #### Create a Pull Request
@@ -88,7 +88,7 @@ This is also done on your VCS GUI:
 
 ![](https://help.github.com/assets/images/help/pull_requests/choose-head-fork-compare-branch.png)
 
-8. Type a title and description for your pull request
+8. Insert a title and description for your pull request
 9. Configure any other options you want on the right hand side
 10. Click 'Create Pull Request'
 
