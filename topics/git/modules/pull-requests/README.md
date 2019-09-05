@@ -1,5 +1,20 @@
 # Pull Requests
 
+<!--TOC_START-->
+### Contents
+- [Overview](#overview)
+- [Collaborative Tool](#collaborative-tool)
+- [Creating a Pull Request](#creating-a-pull-request)
+	- [PR From a Branch Within a Repository](#pr-from-a-branch-within-a-repository)
+		- [Create a feature branch and push it to VCS](#create-a-feature-branch-and-push-it-to-vcs)
+		- [Create a Pull Request](#create-a-pull-request)
+	- [PR from a Forked Repository](#pr-from-a-forked-repository)
+		- [Create a Pull Request](#create-a-pull-request-1)
+- [Closing a Pull Request](#closing-a-pull-request)
+- [After a Pull Request](#after-a-pull-request)
+- [Tasks](#tasks)
+
+<!--TOC_END-->
 ## Overview
 Pull requests let you tell others about changes you've pushed to a GitHub repository. Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
 
