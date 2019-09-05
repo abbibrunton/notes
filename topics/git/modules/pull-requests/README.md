@@ -1,0 +1,72 @@
+# Pull Requests
+
+## Overview
+Pull requests let you tell others about changes you've pushed to a GitHub repository. Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
+
+## Collaborative Tool
+Pull Requests are commonly used by teams and organisations collaborating using the **Shared Repository Model**.
+This is where everyone shares a single repository, and seperate (topic) branches are used to develop features and isolate changes.
+Many open-source projects on Github use pull requests to manage changes from contributors, as they are useful in providing a way to notify project maintainers about any changes made.
+Once the project maintainer has been notified of a change via a pull requests, it opens the door for code review and general discussion about a set of changes.
+This is really great, as it can be done before any changes are merged into the master branch.
+
+## Creating a Pull Request
+There are 2 main flows when dealing with pull requests:
+
+### PR From a Branch Within a Repository
+#### Create a feature branch and push it to VCS
+1. Clone a repository down using `git clone [URL to repository]` and `cd` into it
+2. Switch to the branch you want to create a feature branch from (usually master or development), using `git checkout [master/development/other]`
+3. Create and switch to a new (feature) branch using `git checkout -b [new branch name]`
+4. Push the feature branch up to git using `git push origin [new branch name]`
+5. Make changes on your feature branch, and then use `git add`, `git commit` and `git push` to make sure the changes are reflected in your VCS.
+
+#### Create a Pull Request
+This is done on your VCS GUI (in this example, we are using GitHUb).
+
+1. Go to the repository you're working with and click on the 'Compare and pull request' button:
+![](https://imgur.com/nDoRKHw)
+2. You will need to choose which branch you want the changes to eventualy be implemented on (`base`), and which branch the proposed changes are currently on (`compare`):
+![](https://imgur.com/RYr7D4x)
+3. At this point, you can give your pull requests a title and add some comments for context:
+![](https://imgur.com/wTvf2GR)
+4. You can configure additional options on the right hand side, such as assigning a reviewer, adding a label, etc:
+![](https://imgur.com/pJ13BD1)
+5. Click 'Create a Pull Request':
+![](https://imgur.com/UHZrvSC)
+
+### PR from a Forked Repository
+#### Create a Pull Request
+This is also done on your VCS GUI.
+
+1. Ensure you have a forked repository, and have made some changes to it
+2. Navigate to the repository from which you created your fork
+3. Click on 'New pull request':
+![](https://help.github.com/assets/images/help/pull_requests/pull-request-start-review-button.png)
+4. Amend you `base` and `compare` to reflect to correct branches
+5. Click on 'compare accross forks':
+![](https://help.github.com/assets/images/help/pull_requests/compare-across-forks-link.png)
+6. Confirm that the base fork is the repository you'd like to merge changes into. Use the `base` drop-down menu to select the branch of the repository you'd like to merge changes into:
+![](https://help.github.com/assets/images/help/pull_requests/choose-base-fork-and-branch.png)
+7. Use the head fork drop-down menu to select your forked repository, then use the compare branch drop-down menu to select the branch you made your changes in:
+![](https://help.github.com/assets/images/help/pull_requests/choose-head-fork-compare-branch.png)
+8. Type a title and description for your pull request
+9. Configure any other options you want on the right hand side
+10. Click 'Create Pull Request'
+
+## Closing a Pull Request
+You can simply click on the "Close" button on the pull request page to close it:
+![](https://imgur.com/aQoj9HL)
+
+You will be given the option to delete the branch directly at this point, should you wish to do so. 
+
+## After a Pull Request
+Once a pull request has been opened, it is able to be reviewed by other collaborators and merged into the base branch you dictated.
+
+## Tasks
+- Try to create a new feature branch from an existing GitHub project (or create a new project)
+- Create a pull request to have the new feature merged into the project
+
+- Fork the repository you used in the previous step
+- Make some changes in your forked repository
+- Create a pull request to have your feature merged into the original project
