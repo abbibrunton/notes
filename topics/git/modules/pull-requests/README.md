@@ -33,7 +33,7 @@ This is really great, as it can be done before any changes are merged into the m
 ## Creating a Pull Request
 There are 2 main flows when dealing with pull requests:
 
-### PR From a Branch Within a Repository
+### 1) PR From a Branch Within a Repository
 #### Create a feature branch and push it to VCS
 1. Clone a repository down using `git clone [URL to repository]` and `cd` into it
 2. Switch to the branch you want to create a feature branch from (usually master or development), using:  
@@ -47,25 +47,25 @@ This is done on your VCS GUI (in this example, we are using GitHUb):
 
 1. Go to the repository you're working with and click on the 'Compare and pull request' button:
 
-![](https://imgur.com/3SzIEmi)
+![](https://i.imgur.com/3SzIEmi.png)
 
 2. You will need to choose which branch you want the changes to eventualy be implemented on (`base`), and which branch the proposed changes are currently on (`compare`):
 
-<img align="left" src="https://imgur.com/lWX58HA">
+![](https://i.imgur.com/lWX58HA.png)
 
 3. At this point, you can give your pull requests a title and add some comments for context:
 
-<img align="left" src="https://imgur.com/geCW0mU">
+![](https://i.imgur.com/geCW0mU.png)
 
 4. You can configure additional options on the right hand side, such as assigning a reviewer, adding a label, etc:
 
-<img align="left" src="https://imgur.com/i0zyMAG">
+![](https://i.imgur.com/i0zyMAG.png)
 
 5. Click 'Create a Pull Request':
 
-<img align="left" src="https://imgur.com/xwRCTyk">
+![](https://i.imgur.com/xwRCTyk.png)
 
-### PR from a Forked Repository
+### 2) PR from a Forked Repository
 #### Create a Pull Request
 This is also done on your VCS GUI:
 
@@ -86,7 +86,7 @@ This is also done on your VCS GUI:
 
 7. Use the head fork drop-down menu to select your forked repository, then use the compare branch drop-down menu to select the branch you made your changes in:
 
-![](https://help.github.com/assets/images/help/pull_requests/choose-head-fork-compare-branch.png")
+![](https://help.github.com/assets/images/help/pull_requests/choose-head-fork-compare-branch.png)
 
 8. Type a title and description for your pull request
 9. Configure any other options you want on the right hand side
@@ -95,7 +95,7 @@ This is also done on your VCS GUI:
 ## Closing a Pull Request
 You can simply click on the "Close" button on the pull request page to close it:
 
-![](https://imgur.com/fsFyzqL)
+![](https://i.imgur.com/fsFyzqL.png)
 
 You will be given the option to delete the branch directly at this point, should you wish to do so. 
 
@@ -105,7 +105,6 @@ Once a pull request has been opened, it is able to be reviewed by other collabor
 ## Tasks
 - Try to create a new feature branch from an existing GitHub project (or create a new project)
 - Create a pull request to have the new feature merged into the project
-
 - Fork the repository you used in the previous step
 - Make some changes in your forked repository
 - Create a pull request to have your feature merged into the original project
