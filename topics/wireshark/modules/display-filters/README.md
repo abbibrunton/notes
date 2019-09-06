@@ -56,3 +56,23 @@ The operators are `AND`, `OR` and `NOT`:
 This screenshot shows the `OR` operator being used to show only TCP and UDP traffic:
 
 ![TCP or UDP Display Filter](https://lh3.googleusercontent.com/s7gigEWszpwt0APSZOQkmnKx3lrT3PIKTVXurtak5b8Cmns1tCXupkHebkeMnLE6UEruCNURqRffOVEuAm4D_CdGIB5l322zS64oRfXoH49o-WlPhOPMHxhAFYwjpSLKOmzjf2LXxGwA2Pfi4GhSKH6D0gUNuEBCKTWGmSr6lUbru6yLrdLvNYqsTPeN8xTbnUv8zoNDeDcCGi85kkWoRLnWLiNdh-tmyzR5zm2WwoJjieZj3ppKskV36Lg_alOG-bXWttS2LgMaa6nnIo-qz7dldXMTLt7lmQ_Tp3fNlkh1gmnu7CHhqAHTt3W3ga1qpiCMZXaj4mRr86MZqMAE84ovR5FVLsRQuDIjnUDMJlGhJe1qkNg92hHrbQTPAZ56E98Ag2C1Q3vcfUMXRgOh_TW0TeV8RwUh5mf2ioSS_rvkC5uYSuFJhDWpGUD0Hza0zKa-Jg9P6FAhdJ_M7C-LJ8neDAcJmK9Tq0l7BA73iX9-Lmesg9_425qCaf2mpTBq7G4nfPQYbRjWPqTQrxGi32kllDnWjL2SmFJPPriXf8H3sisGrbSmLMdyq8dnF-BA4Vd2owCG-ubg0WRj5unh_W9kJqedcyo-cZsDNWoDySbv3a3IR2QcUjfoNIV3PvJ1LDbEm-0hqdZnD0Cw8h--_ryYIe9WqvZ7NQFINe1LiI4hTA2YnFtw4MWMlivrdY1zN4Po9AujxCq3ezvJ07lM658GvBfX2_EfB2GXCxgOh4qKNUNH=w1165-h341-no)
+
+## Filter by Host & Address
+### IPV4
+We can specify which host or address to filter out by using `ip.addr` for domain names like `example.com` and IPV4 addresses such as `172.217.169.78`.
+This example will filter out packets for `example.com`:
+```text
+ip.addr == example.com
+```
+This doesn't have to be a hostname; we can use just a regular IPV4 address as well:
+```text
+ip.addr == 93.184.216.34
+```
+### IPV6
+To filter by an IPV6 address we can use `ipv6.addr` to create conditions; this example will show packets for `2606:2800:220:1:248:1893:25c8:1946`:
+```text
+ipv6.addr == 2606:2800:220:1:248:1893:25c8:1946
+```
+
+
+
