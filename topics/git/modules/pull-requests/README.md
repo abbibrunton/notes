@@ -36,24 +36,23 @@ There are 2 main flows when dealing with pull requests:
 ### 1) PR From a Branch Within a Repository
 #### Create a feature branch and push it to VCS
 1. Clone a repository down using `git clone [URL to repository]` and `cd` into it
-2. Switch to the branch you want to create a feature branch from (usually master or development), using:  
-   `git checkout [master/development/other]`
-3. Create and switch to a new (feature) branch using `git checkout -b [new branch name]`
+2. Create and switch to a new (feature) branch using `git checkout -b [new branch name]`
+3. Make changes on your feature branch, and then use `git add` and `git commit` to stage your changes. You will need to configure your VCS email and username at this point, using `git config` (if you haven't already) 
 4. Push the feature branch up to git using `git push origin [new branch name]`
-5. Make changes on your feature branch, and then use `git add`, `git commit` and `git push` to make sure the changes are reflected in your VCS.
+5. You new branch should now be reflected in your VCS
 
 #### Create a Pull Request
 This is done on your VCS GUI (in this example, we are using GitHUb):
 
 1. Go to the repository you're working with and click on the 'Compare and pull request' button:
 
-![](https://i.imgur.com/3SzIEmi.png?2)
+![](https://i.imgur.com/4C9qMiD.png?1)
 
 2. You will need to choose which branch you want the changes to eventualy be implemented on (`base`), and which branch the proposed changes are currently on (`compare`):
 
 ![](https://i.imgur.com/lWX58HA.png?1)
 
-3. At this point, you can give your pull requests a title and add some comments for context:
+3. At this point, you can give your pull request a title and add some comments, for context:
 
 ![](https://i.imgur.com/geCW0mU.png?1)
 
@@ -61,7 +60,7 @@ This is done on your VCS GUI (in this example, we are using GitHUb):
 
 ![](https://i.imgur.com/i0zyMAG.png?2)
 
-5. Click 'Create a Pull Request':
+5. Click 'Create pull request':
 
 ![](https://i.imgur.com/xwRCTyk.png?3)
 
@@ -75,7 +74,7 @@ This is also done on your VCS GUI:
 
 ![](https://help.github.com/assets/images/help/pull_requests/pull-request-start-review-button.png)
 
-4. Amend you `base` and `compare` to reflect to correct branches
+4. Amend your `base` and `compare` to reflect to correct branches
 5. Click on 'compare accross forks':
 
 ![](https://help.github.com/assets/images/help/pull_requests/compare-across-forks-link.png)
@@ -105,6 +104,6 @@ Once a pull request has been opened, it can be reviewed by other collaborators a
 ## Tasks
 - Try to create a new feature branch from an existing GitHub project (or create a new project)
 - Create a pull request to have the new feature merged into the project
-- Fork the repository you used in the previous step
-- Make some changes in your forked repository
+- Fork a repository from GitHub - this can be any repository you feel like
+- Make some changes in the forked repository
 - Create a pull request to have your feature merged into the original project
