@@ -1,0 +1,10 @@
+# Display Filters
+## Overview
+Wireshark's display filter is a bar located at the top, just above where the packets are being shown.
+This is where you type expressions to filter the frames, IP packets, or TCP segments.
+
+The screenshot below shows the display filter being used to only show packets using TCP:
+
+![Wireshark Display Filter](https://lh3.googleusercontent.com/OHz_F2wxCoPMVCQbvIvZZLwT82sRYnyHV1F9ATf3hJcJpdKfMzCSrRsOl_k8eEog6XobewnB5Xi5-bgWVSg_QD6sjyQmh6Id2fiRHNjqrcT5yazEeJxPhEj5IsvUVlPwWsLh_Z72zTQ8SAgRjyYoEImF_eY0GFzoSMv_GWckLWRYASGcgaWJ5tNnIwlQ-0QA6e8ILo-TlM7MGdH5jcBaRaMkuf-3qxWE5hy91-iMlGvn97KJ3dU8vpyR3uX3-zYCHYotVCmDNWUeO9rFAd6XOAX_aRpC6bmpf3ynEhWpMBk3HM9rC2fTaNrZgsnYbziEoPRqGTXvhcG16AEaUHRTXwTTwFlz93IhE-e57q2wXamBzvWo9gy99VQuU5jXwrvWSUkG2tvL0oxmFMHVESL9gzxbnYS541Xvx-5Q21U37T13dP5XyiQckxUMp9aKzb_7IYmZjSIzMKlH2CWS7McOX0WZqWK10Q4wthdl1vPCC2thHUJl9_zkEAkpfkEc2PeGNjp5uLh_53J_eWQz79_IYe4zTsZ53aLQRRbQhAA-GhH4slPkpZB9kysScPms994cYvyf226mBj56jX5qFw-19Van1X0PbEQjQclPCNAoDl0P4okIDXvXViLdVERSLt4Zs3uypVVQPF5y3-2zwOckJ8rLQoTH1SlAxO30oJTiQR9z2VdaVy8FuSD0ZNc_yVLAg-oSMmtE-VgzJCX2MJ0ZadAY1W1OoVfaYgo2IY4nmPue4InF=w1168-h597-no)
+
+
