@@ -50,7 +50,7 @@ The operators are `AND`, `OR` and `NOT`:
 | Operator | Description | Example |
 |----------|-------------|---------|
 | `and`, `&&` | Called Logical AND operator. If both the operands are true, then the condition becomes true. | Show only traffic on the LAN (192.168.1.x), not internet traffic: `ip.src==192.168.1.0/24 and ip.dst==192.168.1.0/24`
-| `or`, `||` | Called Logical OR Operator. If any of the two operands is true, then condition becomes true. | Show only SMTP (TCP port 25) and ICMP Traffic: `tcp.port eq 25 or icmp`
+| `or`, `||` | Called Logical OR Operator. If any of the two operands is true, then condition becomes true. | Show only SMTP (TCP port 25) and ICMP Traffic: `tcp.port eq 25 or icmp` |
 | `!` | Called Logical NOT Operator. Use to reverses the logical state of its operand. If a condition is true then Logical NOT operator will make false. | Show traffic that is **not** TCP: `! tcp`
 
 This screenshot shows the `OR` operator being used to show only TCP and UDP traffic:
