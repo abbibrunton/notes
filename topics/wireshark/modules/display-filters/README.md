@@ -3,6 +3,7 @@
 ### Contents
 - [Overview](#overview)
 - [Filtering by Protocol](#filtering-by-protocol)
+- [Relational Operators](#relational-operators)
 
 <!--TOC_END-->
 ## Overview
