@@ -32,11 +32,27 @@ Here's an example for filtering out packets using the ICMP protocol while a `pin
 ## Relational Operators
 The operators here have the same logic as most programming language.
 When the condition that you put into the display filter equates to true, the packet will be shown.
+
 | Operator | Description |
 |----------|-------------|
-| `==`     | Checks if the values of two operands are equal or not, if yes then condition becomes true. An example of this would be checking if the packet is from a certain host: `ip.host == example.com` |
-| `!=`     | Checks if the values of two operands are equal or not, if values are not equal then condition becomes true. You could use this to show packets **not** coming from port `80` for instance: `ip.port != 80` |
+| `eq`, `==`     | Checks if the values of two operands are equal or not, if yes then condition becomes true. An example of this would be checking if the packet is from a certain host: `ip.host == example.com` |
+| `!=`     | Checks if the values of two operands are equal or not, if values are not equal then condition becomes true. You could use this to show packets **not** coming from port `80` for instance: `tcp.port != 80` |
 
 This is an example of a display filter only showing packets coming from the same network (assuming your LAN CIDR is `192.168.1.0/24`):
 
 ![LAN CIDR Display Filter](https://lh3.googleusercontent.com/6CwjtGqMl4NkyBbg7vmK86Kl4G_Las0jBT55O4pRbRCLIqkGGJ2HyL5HmUMZWyTu4e1MQ63m5dLaXjlQJ3BFy-nk5NOStU-asvSoo_8vl3lW3Kg2x5eA6JR25pyOb72VyRj1yyh6JF7uwIWNPz4Ad0yZIxLzvIkEsAbOblv4UwuusxrVoKPosDqVad0ndkWthd-WWbhbW21m-wB3aM6z0vLrJ8oKwmVHejE_6fKg8WxlXc-56tp_kYVqHj2Wn0NAmPJZSSTsXUnKHOHvYvXxM1trL5UU0snyeDQ6EDZgCqbGMy1oeEcThQxOSw05GuL8OYS7yLm6nkPSz_6_VzQ5FteQBmpzEh1PqyGhAofMVSaCevCH764jn8SDNHWq0hBVQV9MpCbgTJk4LlQ7mu27J5PqrQb62oC_ifZir4OIApmp8RwMoy6ORsLeUgwvDUj0S9ogKM4LiunfwpQJfDv0dfujnBdmPl_E888jMzOrK6TNfhHl0kSzzJqftX9fR7iMDRC6W4BkQ2sWOuwKjPeCa_MWW1m7LZp5mcztXo7sWSOayTiQp6hoeYRtniDQWWwcLRrxJr-yh0tR0lCZRCJ3uKfMySLxuCHFvl3waw21WGFJuISKTMPlakdSdhR97GNiMWRLH_D3jR9fVlY2g4G8ieMwob8asaSDD7Fhlxh048gzpxhxPBvrjX3tifkcxWlkwvgdH4fJb6DRIF84KxULv4zA0QZizWsc0ubl2iG2MAyRKv8G=w914-h266-no)
+
+## Logical Operators
+Logical operators allow us to chain conditions to make much more complex and specific filters.
+The operators are `AND`, `OR` and `NOT`:
+
+| Operator | Description | Example |
+|----------|-------------|---------|
+| `and`, `&&` | Called Logical AND operator. If both the operands are true, then the condition becomes true. | Show only traffic on the LAN (192.168.1.x), not internet traffic: `ip.src==192.168.1.0/24 and ip.dst==192.168.1.0/24`
+| `or`, `||` | Called Logical OR Operator. If any of the two operands is true, then condition becomes true. | Show only SMTP (TCP port 25) and ICMP Traffic: `tcp.port eq 25 or icmp`
+| `!` | Called Logical NOT Operator. Use to reverses the logical state of its operand. If a condition is true then Logical NOT operator will make false. | Show traffic that is **not** TCP: `! tcp`
+
+This screenshot shows the `OR` operator being used to show only TCP and UDP traffic:
+
+![TCP or UDP Display Filter](https://lh3.googleusercontent.com/s7gigEWszpwt0APSZOQkmnKx3lrT3PIKTVXurtak5b8Cmns1tCXupkHebkeMnLE6UEruCNURqRffOVEuAm4D_CdGIB5l322zS64oRfXoH49o-WlPhOPMHxhAFYwjpSLKOmzjf2LXxGwA2Pfi4GhSKH6D0gUNuEBCKTWGmSr6lUbru6yLrdLvNYqsTPeN8xTbnUv8zoNDeDcCGi85kkWoRLnWLiNdh-tmyzR5zm2WwoJjieZj3ppKskV36Lg_alOG-bXWttS2LgMaa6nnIo-qz7dldXMTLt7lmQ_Tp3fNlkh1gmnu7CHhqAHTt3W3ga1qpiCMZXaj4mRr86MZqMAE84ovR5FVLsRQuDIjnUDMJlGhJe1qkNg92hHrbQTPAZ56E98Ag2C1Q3vcfUMXRgOh_TW0TeV8RwUh5mf2ioSS_rvkC5uYSuFJhDWpGUD0Hza0zKa-Jg9P6FAhdJ_M7C-LJ8neDAcJmK9Tq0l7BA73iX9-Lmesg9_425qCaf2mpTBq7G4nfPQYbRjWPqTQrxGi32kllDnWjL2SmFJPPriXf8H3sisGrbSmLMdyq8dnF-BA4Vd2owCG-ubg0WRj5unh_W9kJqedcyo-cZsDNWoDySbv3a3IR2QcUjfoNIV3PvJ1LDbEm-0hqdZnD0Cw8h--_ryYIe9WqvZ7NQFINe1LiI4hTA2YnFtw4MWMlivrdY1zN4Po9AujxCq3ezvJ07lM658GvBfX2_EfB2GXCxgOh4qKNUNH=w1165-h341-no)
+
