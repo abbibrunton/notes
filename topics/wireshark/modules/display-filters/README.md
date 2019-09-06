@@ -76,3 +76,11 @@ To filter by an IPV6 address we can use `ipv6.addr` to create conditions; this e
 ```text
 ipv6.addr == 2606:2800:220:1:248:1893:25c8:1946
 ```
+
+## Filter by Network
+The CIDR of a network can be provided in the display filter to only show connections on a certain network.
+You may for instance only want to see the traffic on your Local Area Network (LAN) or vice versa.
+To see only TCP traffic on a LAN with a CIDR block of `192.168.1.0/24` we can use this display filter: `ip.src == 192.168.1.0/24 and ip.dst == 192.168.1.0/24 and tcp`:
+
+![TCP LAN Display Filter](https://lh3.googleusercontent.com/Acx9D9IbLldO3xcxhO2uBkSvTHxSMAqOFN4PCwLbHoTQlBkL62SYu50pK4gxWUEylLBSYq6XpAZzZDprZaUBtO4A3C38y1pgMDdNrKk6dHS0mgHrNhoa_-XVLgSx9M6dFeWXXxuBrfbCrHU9-nFlsC0HHdoeVks3iseotT8xh0LbULIFerwMGSQhUUvekgjH-4GrMIPEjGhYmWHbOKb1h1O_Ya4pUy7m_GvvZqdpj8HQP4GquEDyddcvIbFjpf6dNsjhH7pv_uQdqR3IYgL4iTykMqrtkpcWR09B3Fc49gEoG2sIzFqcOkAGJoezOuJoCaqeK7Puyfyaf639sHRtxk4Nq_3IOPQiAWXd6mYrtxKC1BGJpJrHZg307vGiTNLmQRdbmzecMXVtiEBhZuWQUt7r6_atRO6Ur5rR9DRzn4opqsznPPv___hetoRN8b_IJKGauwi37RM3_Fgp_WoMnQT77_Tce3RKgspHIKhllTQ3mqSlMWTxQ21q41gmFu0qWZ8ZTb021gi61QQY5aNp9kV89B7r1iW9MUhA-4v-5M2yivPEXwU1fI6AomjMPlU83t_cLngMAbtFx7Esb_O8BFZn878pxKH1rfzjCMzKjuEBT-up1QLrplv3gPssErO6s8WoppupzUByfaR-ALLqI-YC6YQSiV3tAYGeYORfF_he0wZOP08OrGLrX8rmCHF5ZaE4fYvuuTmMIt27NHKQna1z46bBvaOOMrL3almL6fftOoqE=w1165-h302-no)
+
