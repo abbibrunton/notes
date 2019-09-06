@@ -18,7 +18,7 @@ To only show a certain protocol acronym can usually just be put in the display f
 It's important to keep the letters lowercase however:
 
 | Protocol | Display Filter Value |
-|----------|----------------------|
+|----------|:--------------------:|
 | Transmission Control Protocol (TCP) | tcp |
 | User Datagram Protocol (UDP) | udp |
 | Internet Control Message Protocol (ICMP) | icmp |
