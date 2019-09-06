@@ -5,6 +5,9 @@
 - [Filtering by Protocol](#filtering-by-protocol)
 - [Relational Operators](#relational-operators)
 - [Logical Operators](#logical-operators)
+- [Filter by Host & Address](#filter-by-host--address)
+	- [IPV4](#ipv4)
+	- [IPV6](#ipv6)
 
 <!--TOC_END-->
 ## Overview
@@ -73,6 +76,3 @@ To filter by an IPV6 address we can use `ipv6.addr` to create conditions; this e
 ```text
 ipv6.addr == 2606:2800:220:1:248:1893:25c8:1946
 ```
-
-
-
