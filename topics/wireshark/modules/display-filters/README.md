@@ -2,6 +2,7 @@
 <!--TOC_START-->
 ### Contents
 - [Overview](#overview)
+- [Filtering by Protocol](#filtering-by-protocol)
 
 <!--TOC_END-->
 ## Overview
