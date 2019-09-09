@@ -9,6 +9,9 @@
 	- [IPV4](#ipv4)
 	- [IPV6](#ipv6)
 - [Filter by Network](#filter-by-network)
+- [Tasks](#tasks)
+	- [TCP](#tcp)
+	- [Display Packets Not from Your Machine](#display-packets-not-from-your-machine)
 
 <!--TOC_END-->
 ## Overview
@@ -93,4 +96,3 @@ Lets start by displaying only TCP traffic by using just `tcp` as the display fil
 
 ### Display Packets Not from Your Machine
 For this part you will need to know what your private IP address is.
-
