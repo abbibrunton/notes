@@ -25,4 +25,33 @@ to which their data centre adheres.
 
 TIA-942 and Uptime Institute are the two best-known examples.
 
+## Benefits of virtualization
+
+Benefits can include:
+* Elasticity/scalability
+* Resource pooling on common infrastructure
+* More efficient use of physical resources
+* Granularity of monitoring and pricing
+* No leakage of data from one guest to another
+
+`Noisy neighbours` – one guest using all the bandwidth/CPU/etc and the servers all need to be physically close, or 
+connected by a dedicated network.
+
+## Virtualization VS Multi-Tenanting
+
+Virtualisation is a type of multi-tenanting, in that it allows multiple users to share a single physical resource. It 
+does this by separating the users at the hypervisor level.
+* Namely, every customer has their own virtual machine, from the OS up
+
+However, when we use the term multi-tenanting, we usually use it to refer to application-level separation of users 
+within a single virtual machine.
+* The virtual machine is hared by many customers
+* Isolation is enforced by the application
+
+Software-as-a-service is frequently multi-tenant, for Cloud services such as Gmail
+* `My webmail provider almost certainly uses virtualisation, but when I log on, I
+  don’t get a virtual machine all to myself. Instead, the application prevents me
+  from seeing other users email`
+  
+## Containers
 
