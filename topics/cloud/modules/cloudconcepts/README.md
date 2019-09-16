@@ -58,5 +58,9 @@ to scale in and out with demand.
 May even be automatic or transparent to the customer.
 ![Fork >](https://images.slideplayer.com/20/5990497/slides/slide_12.jpg) <-- IMAGE TO BE REPLACED WITH HUGO ONE
 
+## Measured service
 
+If resources are being dynamically provisioned, it’s essential that the customer should be able to monitor the 
+performance and usage of those resources in real time. Most cloud resources are offered on a pay-per-use basis, and the 
+customer must be able to monitor their usage in order to control their costs.
 
