@@ -55,3 +55,13 @@ Software-as-a-service is frequently multi-tenant, for Cloud services such as Gma
   
 ## Containers
 
+Subdivide a single virtual machine, which results in less overhead than creating multiple VMs:
+* Does not require hardware support or emulation
+* Containers are isolated at the user (as opposed to kernel) level
+
+Docker is the best-known container technology (docker.com).
+
+Package an application and its dependencies as a unit.
+* Run on any Linux server: flexible and portable
+* Windows support expected soon
+* Integrated into many other cloud products
