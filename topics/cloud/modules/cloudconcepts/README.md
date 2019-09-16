@@ -64,3 +64,5 @@ If resources are being dynamically provisioned, it’s essential that the custom
 performance and usage of those resources in real time. Most cloud resources are offered on a pay-per-use basis, and the 
 customer must be able to monitor their usage in order to control their costs.
 
+## Fault tolerance
+

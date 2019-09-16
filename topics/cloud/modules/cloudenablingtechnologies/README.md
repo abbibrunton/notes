@@ -10,6 +10,18 @@ servers all need to be physically close, or connected by a dedicated network.
 With a fast, wide-area network, we can support users in many different locations, and we can support high-availability 
 and disaster recovery solutions that would previously have been unworkable.
 
+## Disaster recovery
+
+Disaster recovery is the strategy of backing up and restore that maintains the electronic records of the copies in 
+cloud environment. This is important if you want to be prepared for a man-made or a natural catastrophe.
+
+Cloud providers have these strategies in place for it's clients, of course that comes as an additional cost. You could 
+be charged based on bandwidth, storage space or pay-per-use.
+
+You could implement these strategies, but before implementation there are a few things to consider:
+* Is the bandwidth fast enough to move the data between primary site and the cloud
+* Can the data be encrypted in flight
+
 ## Powerful, inexpensive server computers
 
 In order to get the pool of interchangeable resources required by a cloud, we need to be able to buy lots of servers 
