@@ -1,8 +1,9 @@
 # Cloud concepts
 
+## Overview
 In this module you will learn about the concepts of cloud. These concepts are shared among all the cloud providers.
 
-## What is the cloud
+### What is the cloud
 
 The terms ‘cloud computing’ and ‘the cloud’ have been used to describe all kinds of different technology. Are we
 talking about Distributed computing? Networked Services? Virtualised Servers or Hosted services? The actual
@@ -11,7 +12,7 @@ is a model for enabling ubiquitous, convenient, on-demand network access to a sh
 resources (e.g. networks, servers, storage, applications, and services) that can be rapidly provisioned and released 
 with minimal management effort or service provider interaction`
 
-## On demand self service
+### On demand self service
 
 All cloud providers have a dashboard through which the customers can control the services that the provider offers. 
 Hence the name `on demand self service`.
@@ -23,7 +24,7 @@ This is how it looks for AWS:
 This is how it looks for Azure:
 ![Fork >](https://imgur.com/cK3lnGv.png)
 
-## Broad network access
+### Broad network access
 
 Access over network via *standard mechanisms* which would generally be taken to mean standard protocols like HTTP or 
 TCP. Services should be accessible to a variety of clients running on various hardware (phones, laptops, desktops).
@@ -34,7 +35,7 @@ not cloud computing.
 Notice that *network-accessible* is not the same thing as *internet-accessible*; there is no such thing as a private 
 cloud on a public network.
 
-## Resource pooling
+### Resource pooling
 
 Cloud services are provided to multiple tenants (users, applications) by a pool of interchangeable resources. If each 
 tenant needs its own, specific, customised resources, then it’s not cloud computing. Providing on-demand resources with 
@@ -49,7 +50,7 @@ These resources are dynamically assigned and reassigned in order to get optimal 
     * e.g. can this data be stored outside of the EU
     * can the application function well if the web-server is in the EU and the data it uses is in Australia
     
-## Rapid elasticity
+### Rapid elasticity
 
 Elasticity is a fundamental property of the cloud. The ability to use exactly the resources you need, without either 
 under-provisioning or excessively over-provisioning, is one of the key benefits of cloud services. Allows the customer 
@@ -58,13 +59,13 @@ to scale in and out with demand.
 May even be automatic or transparent to the customer.
 ![Fork >](https://images.slideplayer.com/20/5990497/slides/slide_12.jpg) <-- IMAGE TO BE REPLACED WITH HUGO ONE
 
-## Measured service
+### Measured service
 
 If resources are being dynamically provisioned, it’s essential that the customer should be able to monitor the 
 performance and usage of those resources in real time. Most cloud resources are offered on a pay-per-use basis, and the 
 customer must be able to monitor their usage in order to control their costs.
 
-## Fault tolerance
+### Fault tolerance
 
 Fault tolerance concept exists not only in the cloud but also in the self-hosted environment. What this is referring to 
 is the ability for your application to function even if one or more pieces in any layer fails.
@@ -74,7 +75,7 @@ In the cloud, you have auto-scaling as well as multiple geographical zones to he
  maintenance. This could be done with build and orchestration tools that would monitor your resources and whether
   they are alive and responding or dead and new ones need to be created.
 
-## Economies of scale
+### Economies of scale
 
 Cost advantage experienced by companies when the level of output increases is known as *Economies of scale*. This
  advantage comes from the relationship between per-unit cost and the quantity produced. Greater quantity produced

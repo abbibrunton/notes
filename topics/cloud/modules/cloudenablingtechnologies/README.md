@@ -1,8 +1,9 @@
 # Cloud enabling technologies
 
+## Overview
 In this module you will learn what technologies allow cloud services to work.
 
-## Fast wide area networks
+### Fast wide area networks
 
 In order to get the location-independence of the cloud, you need a fast wide-area network. Otherwise the users and the 
 servers all need to be physically close, or connected by a dedicated network.
@@ -10,7 +11,7 @@ servers all need to be physically close, or connected by a dedicated network.
 With a fast, wide-area network, we can support users in many different locations, and we can support high-availability 
 and disaster recovery solutions that would previously have been unworkable.
 
-## Disaster recovery
+### Disaster recovery
 
 Disaster recovery is the strategy of backing up and restore that maintains the electronic records of the copies in 
 cloud environment. This is important if you want to be prepared for a man-made or a natural catastrophe.
@@ -22,7 +23,7 @@ You could implement these strategies, but before implementation there are a few 
 * Is the bandwidth fast enough to move the data between primary site and the cloud
 * Can the data be encrypted in flight
 
-## Powerful, inexpensive server computers
+### Powerful, inexpensive server computers
 
 In order to get the pool of interchangeable resources required by a cloud, we need to be able to buy lots of servers 
 and configurable them, and they need to be reasonably powerful.
@@ -37,7 +38,7 @@ to which their data centre adheres.
 
 TIA-942 and Uptime Institute are the two best-known examples.
 
-## Benefits of virtualization
+### Benefits of virtualization
 
 Benefits can include:
 * Elasticity/scalability
@@ -49,7 +50,7 @@ Benefits can include:
 `Noisy neighbours` – one guest using all the bandwidth/CPU/etc and the servers all need to be physically close, or 
 connected by a dedicated network.
 
-## Virtualization VS Multi-Tenanting
+### Virtualization VS Multi-Tenanting
 
 Virtualisation is a type of multi-tenanting, in that it allows multiple users to share a single physical resource. It 
 does this by separating the users at the hypervisor level.
@@ -65,7 +66,7 @@ Software-as-a-service is frequently multi-tenant, for Cloud services such as Gma
   don’t get a virtual machine all to myself. Instead, the application prevents me
   from seeing other users email`
   
-## Containers
+### Containers
 
 Subdivide a single virtual machine, which results in less overhead than creating multiple VMs:
 * Does not require hardware support or emulation

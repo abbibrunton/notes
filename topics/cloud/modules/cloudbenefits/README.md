@@ -1,8 +1,9 @@
 # Cloud benefits
 
+## Overview
 In this module you will learn about what benefits Cloud technologies offer.
 
-## Scaling in/out
+### Scaling in/out
 
 Scaling in and out is a reference to your services automatically reacting to the amount of work they need to do and if 
 the resources available are not enough to automatically get more, once the workload decreases the resources are 
@@ -20,7 +21,7 @@ based on the amount of users coming to the service there is an increase in the r
  over then the resources are released.
 ![Fork >](https://imgur.com/ik1EzDu.png) <-- TO BE REPLACED WITH THE ONE FROM HUGO
 
-## Cloud provider competencies
+### Cloud provider competencies
 
 Another major benefit is allowing customers to take advantage of the competencies of the cloud service provider. 
 * Operating a Data centre is complex and many costs and issues need to be considered:
@@ -30,7 +31,7 @@ Another major benefit is allowing customers to take advantage of the competencie
     * Network configuration and security
     * Software has to be self managed
     
-## High availability
+### High availability
 
 Running an application in a variety of physical locations was previous so expensive that only the largest organisation 
 could really consider it, and usually only for the most critical of functionality. With the cloud, the idea of High 
@@ -39,7 +40,7 @@ Availability is essentially free:
 * Fewer single points of failure
 * Lower latency, high availability
 
-## Agility
+### Agility
 
 Using the cloud tends to increase agility. We’ll see many case studies, later on in this course, where faster 
 time-to-market was one of the major benefits of an organisation’s move to the cloud. Faster provisioning for (e.g.) 
