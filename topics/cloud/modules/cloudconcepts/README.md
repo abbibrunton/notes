@@ -34,3 +34,29 @@ not cloud computing.
 Notice that *network-accessible* is not the same thing as *internet-accessible*; there is no such thing as a private 
 cloud on a public network.
 
+## Resource pooling
+
+Cloud services are provided to multiple tenants (users, applications) by a pool of interchangeable resources. If each 
+tenant needs its own, specific, customised resources, then it’s not cloud computing. Providing on-demand resources with 
+utility pricing can only make economic sense if the resources come from a shared pool.
+
+These resources are dynamically assigned and reassigned in order to get optimal use of out of them. 
+* Storage, processing, memory, etc.
+
+**Location independent**
+* Customer generally does not know/need to know exact physical location of the resources
+* For regulatory and architectural reasons, the customer is generally able to specify a general location (e.g. country)
+    * e.g. can this data be stored outside of the EU
+    * can the application function well if the web-server is in the EU and the data it uses is in Australia
+    
+## Rapid elasticity
+
+Elasticity is a fundamental property of the cloud. The ability to use exactly the resources you need, without either 
+under-provisioning or excessively over-provisioning, is one of the key benefits of cloud services. Allows the customer 
+to scale in and out with demand. 
+* **Note**: usually scaling in and out, as opposed to scaling up and down
+May even be automatic or transparent to the customer.
+![Fork >](https://images.slideplayer.com/20/5990497/slides/slide_12.jpg) <-- IMAGE TO BE REPLACED WITH HUGO ONE
+
+
+
