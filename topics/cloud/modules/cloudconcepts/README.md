@@ -66,3 +66,10 @@ customer must be able to monitor their usage in order to control their costs.
 
 ## Fault tolerance
 
+Fault tolerance concept exists not only in the cloud but also in the self-hosted environment. What this is referring to 
+is the ability for your application to function even if one or more pieces in any layer fails.
+
+In the cloud, you have auto-scaling as well as multiple geographical zones to help you aid with fault tolerance. In
+ self-hosted domain you would need to configure the infrastructure in order for it to function in case of failure or
+ maintenance. This could be done with build and orchestration tools that would monitor your resources and whether
+  they are alive and responding or dead and new ones need to be created. 
