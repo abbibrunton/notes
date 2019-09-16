@@ -38,3 +38,11 @@ Availability is essentially free:
 * Same cost to deploy to multiple data centres
 * Fewer single points of failure
 * Lower latency, high availability
+
+## Agility
+
+Using the cloud tends to increase agility. We’ll see many case studies, later on in this course, where faster 
+time-to-market was one of the major benefits of an organisation’s move to the cloud. Faster provisioning for (e.g.) 
+new projects. Faster introduction of new services:
+* In DevOps for example; agile creation, testing and deploying of services
+* Continuous Delivery/Deployment
