@@ -23,4 +23,14 @@ This is how it looks for AWS:
 This is how it looks for Azure:
 ![Fork >](https://imgur.com/cK3lnGv.png)
 
+## Broad network access
+
+Access over network via *standard mechanisms* which would generally be taken to mean standard protocols like HTTP or 
+TCP. Services should be accessible to a variety of clients running on various hardware (phones, laptops, desktops).
+
+In other words, if it’s only accessible using a proprietary protocol or data format, from custom client, it’s probably 
+not cloud computing. 
+
+Notice that *network-accessible* is not the same thing as *internet-accessible*; there is no such thing as a private 
+cloud on a public network.
 
