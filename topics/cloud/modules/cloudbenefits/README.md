@@ -18,5 +18,23 @@ released as well.
 In the picture below we can see how there is always just a bit more computational power than the demand requires. Also 
 based on the amount of users coming to the service there is an increase in the resources required, once the peak time is
  over then the resources are released.
-![Fork >](https://imgur.com/ik1EzDu.png)
+![Fork >](https://imgur.com/ik1EzDu.png) <-- TO BE REPLACED WITH THE ONE FROM HUGO
 
+## Cloud provider competencies
+
+Another major benefit is allowing customers to take advantage of the competencies of the cloud service provider. 
+* Operating a Data centre is complex and many costs and issues need to be considered:
+    * Security, certifications, audits
+    * Hardware specifications, warranties, installation, disposal
+    * Operating Systems and platform licenses
+    * Network configuration and security
+    * Software has to be self managed
+    
+## High availability
+
+Running an application in a variety of physical locations was previous so expensive that only the largest organisation 
+could really consider it, and usually only for the most critical of functionality. With the cloud, the idea of High 
+Availability is essentially free:
+* Same cost to deploy to multiple data centres
+* Fewer single points of failure
+* Lower latency, high availability
