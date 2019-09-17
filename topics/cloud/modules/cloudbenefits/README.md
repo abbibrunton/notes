@@ -7,6 +7,7 @@
 	- [Cloud provider competencies](#cloud-provider-competencies)
 	- [High availability](#high-availability)
 	- [Agility](#agility)
+	- [Task](#task)
 
 <!--TOC_END-->
 ## Overview
