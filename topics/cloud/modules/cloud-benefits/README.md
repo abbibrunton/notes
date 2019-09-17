@@ -41,6 +41,10 @@ Another major benefit is allowing customers to take advantage of the competencie
     * Network configuration and security
     * Software has to be self managed
     
+If you were to host your own server, depending on how powerful you will be making it, there are all the previously
+ mentioned costs involved to think of before doing so, as you might be spending thousands of pounds before you will
+  be able to get your server working.
+    
 ### High availability
 
 Running an application in a variety of physical locations was previous so expensive that only the largest organisation 
@@ -49,6 +53,11 @@ Availability is essentially free:
 * Same cost to deploy to multiple data centres
 * Fewer single points of failure
 * Lower latency, high availability
+
+A good example of high availability would be a game server. When you play online games you usually choose the server
+ that is as close to you as possible, as this reduces the latency and makes it better for you to play. Similarly, if a
+  company has a web application which is generating revenue for it, you would like to deploy it closer to where your
+   clients are to make the user experience better with the hope of attracting more customers with your provided service.
 
 ### Agility
 
