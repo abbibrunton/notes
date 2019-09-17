@@ -13,7 +13,7 @@ Biggest players in the cloud services are: Amazon Web Services (AWS), Google Clo
  this topic you will learn about various concepts that make up cloud services.
 <!--MODULES_START-->
 ## Modules
-- [Cloud benefits](modules/cloud-benefits)
-- [Cloud concepts](modules/cloud-concepts)
-- [Cloud enabling technologies](modules/cloud-enabling-technologies)
+- [Cloud benefits](./modules/cloud-benefits)
+- [Cloud concepts](./modules/cloud-concepts)
+- [Cloud enabling technologies](./modules/cloud-enabling-technologies)
 <!--MODULES_END-->
