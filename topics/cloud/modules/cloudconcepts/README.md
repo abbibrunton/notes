@@ -21,7 +21,7 @@ In this module you will learn about the concepts of cloud. These concepts are sh
 ### What is the cloud
 
 The terms ‘cloud computing’ and ‘the cloud’ have been used to describe all kinds of different technology. Are we
-talking about Distributed computing? Networked Services? Virtualised Servers or Hosted services? The actual
+talking about Distributed computing? Networked Services? Virtualized Servers or Hosted services? The actual
 definition of cloud computing as reported by NIST (National Institute of Standards and Technology) is: `Cloud computing 
 is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing 
 resources (e.g. networks, servers, storage, applications, and services) that can be rapidly provisioned and released 
@@ -123,3 +123,16 @@ business running. OpEx can actually be deducted from the company's taxes in the 
 
 What the CapEx can tell you is how much a company is investing in new or existing assets, for growing or maintaining
  the company.
+
+### Task
+
+Try to answer the following questions in order to check your knowledge. If you have trouble answering the question
+, you can check the answer below.
+
+**Who uses similar consumption based pricing model in real life?**
+
+<details>
+<summary>Show Solution</summary>
+Utilities companies that provide services like: water, electricity, gas.
+</details>
+
