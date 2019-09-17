@@ -89,3 +89,32 @@ Package an application and its dependencies as a unit.
 * Run on any Linux server: flexible and portable
 * Windows support expected soon
 * Integrated into many other cloud products
+
+### Task
+
+**List all the cloud enabling technologies you have learned about in this module**
+<details>
+<summary>Show Solution</summary>
+* Fast wide area networks
+* Disaster recovery
+* Powerful, inexpensive server computers
+* Benefits of virtualization
+* Virtualization VS Multi-Tenanting
+* Containers
+</details>
+
+**Can you implement disaster recovery for on-premises hosting?**
+<details>
+<summary>Show Solution</summary>
+Yes, with appropriate configuration. Additionally security, and infrastructure has to support it.
+</details>
+
+**List out the benefits of virtualization**
+<details>
+<summary>Show Solution</summary>
+* Elasticity/scalability
+* Resource pooling on common infrastructure
+* More efficient use of physical resources
+* Granularity of monitoring and pricing
+* No leakage of data from one guest to another
+</details>
