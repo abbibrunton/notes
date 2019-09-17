@@ -9,6 +9,7 @@
 	- [Benefits of virtualization](#benefits-of-virtualization)
 	- [Virtualization VS Multi-Tenanting](#virtualization-vs-multitenanting)
 	- [Containers](#containers)
+	- [Task](#task)
 
 <!--TOC_END-->
 ## Overview
