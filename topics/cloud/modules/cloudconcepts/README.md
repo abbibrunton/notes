@@ -87,3 +87,16 @@ activities related to the commodity but without the final buyer involvement. The
  scale can be implemented in the company like: hiring more experienced marketing employees, automate human to machine
   labor.
   
+## Capital expenditure
+
+*Capital expenditure* (CapEx) are funds that company uses to upgrade, maintain, acquire physical assets like
+: buildings, technology, equipment. In short CapEx is the expenses that the company shows on the balance sheet marked as
+ investment, rather than on the income statement as the expenditure.
+
+Typically used for new projects. 
+
+CapEx is not *Operating Expenses* (OpEx), and should not be treated as such. OpEx are short term expenses that keep the 
+business running. OpEx can actually be deducted from the company's taxes in the year it occurred.
+
+What the CapEx can tell you is how much a company is investing in new or existing assets, for growing or maintaining
+ the company.  
