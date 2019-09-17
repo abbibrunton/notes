@@ -130,9 +130,26 @@ Try to answer the following questions in order to check your knowledge. If you h
 , you can check the answer below.
 
 **Who uses similar consumption based pricing model in real life?**
-
 <details>
 <summary>Show Solution</summary>
 Utilities companies that provide services like: water, electricity, gas.
 </details>
 
+**What is the difference between CapEx and OpEx?**
+<details>
+<summary>Show Solution</summary>
+OpEx is short term expenses to keep the business running, CapEx is the business investment in new or existing
+ resources with the goal of expanding the company.
+</details>
+
+**How would you describe fault tolerance in one sentence?**
+<details>
+<summary>Show Solution</summary>
+What this is referring to is the ability for your application to function even if one or more pieces in any layer fails.
+</details>
+
+**Based on what is the price calculated for the consumption based pricing model?**
+<details>
+<summary>Show Solution</summary>
+You pay for what you use.
+</details>
