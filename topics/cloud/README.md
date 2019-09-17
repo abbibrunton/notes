@@ -1,4 +1,4 @@
-# Common cloud concepts
+# Common Cloud Concepts
 
 <!--TOC_START-->
 ### Contents
