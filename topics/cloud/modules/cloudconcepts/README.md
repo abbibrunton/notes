@@ -24,6 +24,14 @@ This is how it looks for AWS:
 This is how it looks for Azure:
 ![Fork >](https://imgur.com/cK3lnGv.png)
 
+### Consumption based pricing
+
+A *Consumption based pricing* is a service and payment scheme where the customer pays according to the amount of
+ resources used. This is similar to how you would pay utilities companies for electricity/gas/water based on how much
+  you've used it.
+
+The prices may have flat rates per resource or they could be varied rates for different component. 
+
 ### Broad network access
 
 Access over network via *standard mechanisms* which would generally be taken to mean standard protocols like HTTP or 
@@ -87,7 +95,7 @@ activities related to the commodity but without the final buyer involvement. The
  scale can be implemented in the company like: hiring more experienced marketing employees, automate human to machine
   labor.
   
-## Capital expenditure
+### Capital expenditure
 
 *Capital expenditure* (CapEx) are funds that company uses to upgrade, maintain, acquire physical assets like
 : buildings, technology, equipment. In short CapEx is the expenses that the company shows on the balance sheet marked as
@@ -99,4 +107,4 @@ CapEx is not *Operating Expenses* (OpEx), and should not be treated as such. OpE
 business running. OpEx can actually be deducted from the company's taxes in the year it occurred.
 
 What the CapEx can tell you is how much a company is investing in new or existing assets, for growing or maintaining
- the company.  
+ the company. 
