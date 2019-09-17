@@ -13,6 +13,7 @@
 	- [Fault tolerance](#fault-tolerance)
 	- [Economies of scale](#economies-of-scale)
 	- [Capital expenditure](#capital-expenditure)
+	- [Task](#task)
 
 <!--TOC_END-->
 ## Overview
@@ -135,4 +136,3 @@ Try to answer the following questions in order to check your knowledge. If you h
 <summary>Show Solution</summary>
 Utilities companies that provide services like: water, electricity, gas.
 </details>
-
