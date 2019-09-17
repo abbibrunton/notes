@@ -56,3 +56,8 @@ time-to-market was one of the major benefits of an organisation’s move to the 
 new projects. Faster introduction of new services:
 * In DevOps for example; agile creation, testing and deploying of services
 * Continuous Delivery/Deployment
+
+### Task
+
+Watch the video below about the types of scaling.
+[![Cloud scaling types](https://img.youtube.com/vi/RMThQbolgZs/0.jpg)](https://www.youtube.com/watch?v=RMThQbolgZs)
