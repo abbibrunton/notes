@@ -1,5 +1,14 @@
 # Cloud benefits
 
+<!--TOC_START-->
+### Contents
+- [Overview](#overview)
+	- [Scaling in/out](#scaling-inout)
+	- [Cloud provider competencies](#cloud-provider-competencies)
+	- [High availability](#high-availability)
+	- [Agility](#agility)
+
+<!--TOC_END-->
 ## Overview
 In this module you will learn about what benefits Cloud technologies offer.
 

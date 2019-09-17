@@ -1,5 +1,20 @@
 # Cloud concepts
 
+<!--TOC_START-->
+### Contents
+- [Overview](#overview)
+	- [What is the cloud](#what-is-the-cloud)
+	- [On demand self service](#on-demand-self-service)
+	- [Consumption based pricing](#consumption-based-pricing)
+	- [Broad network access](#broad-network-access)
+	- [Resource pooling](#resource-pooling)
+	- [Rapid elasticity](#rapid-elasticity)
+	- [Measured service](#measured-service)
+	- [Fault tolerance](#fault-tolerance)
+	- [Economies of scale](#economies-of-scale)
+	- [Capital expenditure](#capital-expenditure)
+
+<!--TOC_END-->
 ## Overview
 In this module you will learn about the concepts of cloud. These concepts are shared among all the cloud providers.
 
@@ -107,4 +122,4 @@ CapEx is not *Operating Expenses* (OpEx), and should not be treated as such. OpE
 business running. OpEx can actually be deducted from the company's taxes in the year it occurred.
 
 What the CapEx can tell you is how much a company is investing in new or existing assets, for growing or maintaining
- the company. 
+ the company.
