@@ -52,7 +52,7 @@ connected by a dedicated network.
 
 ### Virtualization VS Multi-Tenanting
 
-Virtualisation is a type of multi-tenanting, in that it allows multiple users to share a single physical resource. It 
+Virtualization is a type of multi-tenanting, in that it allows multiple users to share a single physical resource. It 
 does this by separating the users at the hypervisor level.
 * Namely, every customer has their own virtual machine, from the OS up
 

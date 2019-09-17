@@ -80,4 +80,10 @@ In the cloud, you have auto-scaling as well as multiple geographical zones to he
 Cost advantage experienced by companies when the level of output increases is known as *Economies of scale*. This
  advantage comes from the relationship between per-unit cost and the quantity produced. Greater quantity produced
   lowers the per-unit cost. Increase in the output reduces the average costs, this also falls under the *Economies of 
-  scale*. The increase is brought by synergies of efficiency and operation. 
+  scale*. The increase is brought by synergies of efficiency and operation.
+  
+At any stage of the production process economies of scale can be implemented. Production that is mentioned are all the 
+activities related to the commodity but without the final buyer involvement. There are numerous ways how economies of
+ scale can be implemented in the company like: hiring more experienced marketing employees, automate human to machine
+  labor.
+  
