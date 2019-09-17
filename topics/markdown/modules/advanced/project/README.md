@@ -12,4 +12,5 @@
 ##### source venv/bin/activate
 #### Step 5: Install the pip dependencies file. You can do this by using:
 ##### pip3 install -r pip_dependencies.txt
-#### Step 6: Finally, run the python program using python3 pass_gen.py
+#### Step 6: Finally, run the python program using:
+#####python3 pass_gen.py
